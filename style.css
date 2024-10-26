@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul label {
+    font-weight: bold;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .exp1{
+    height: auto;
+    width: 100vw;
+    display: flex;
+  }
+  .file{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
